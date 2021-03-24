@@ -6,7 +6,7 @@ The files in this repository were used to configure the network depicted below.
 https://github.com/Sheryl101/CybersecurityKB/blob/d7c83ce99d5b0bc91c0a10748f21627011ae9ddb/Diagrams/NeworkDiagramELK.PNG
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the .yml file may be used to install only certain pieces of it, such as Filebeat.
 
   - _TODO: Enter the playbook file._
 
