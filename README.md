@@ -3,7 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/Sheryl101/CybersecurityKB/blob/3b38ff5bbb11224cd40b9c911825cf531e9d0c79/Diagrams/Network%20Diagram%20(ELK).pdf
+Diagrams/NeworkDiagramELK.PNG
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -34,7 +34,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 
 | Name     | Function | IP Address | Operating System |
 |----------|----------|------------|------------------|
-| Jump Box | Gateway  | 10.0.0.1   | Linux            |
+| Jump Box | Gateway  | 10.0.0.4   | Linux            |
 | TODO     |          |            |                  |
 | TODO     |          |            |                  |
 | TODO     |          |            |                  |
@@ -53,7 +53,7 @@ A summary of the access policies in place can be found in the table below.
 
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
-| Jump Box | Yes/No              | 10.0.0.1 10.0.0.2    |
+| Jump Box | Yes/No              | 10.0.0.5 10.0.0.6 10.0.0.7   |
 |          |                     |                      |
 |          |                     |                      |
 
