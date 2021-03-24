@@ -1,0 +1,57 @@
+cat $1_Dealer_schedule | awk -F" " '{print $2, $5, $6}'
+
+
+
+**** cat 0312_Dealer_schedule | awk -F" " '{print $1, $2, $5, $6}' | grep "$2"
+
+
+0315_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0315_Dealer_schedule:05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ grep hour *
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F":" '{print $1, $2}' 0311_Dealer_schedule 
+awk: cannot open 0311_Dealer_schedule (No such file or directory)
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F":" '{print $1, $2}' 
+^C
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F"" '{print $1, $2}' 
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F "" '{print $1, $2}' 
+^C
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ awk -F"" '{print $1, $2}' 0310_Dealer_schedule 
+^C
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ grep -i 5 * | awk -F"" '{print $3, $4}'
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ grep -i 5 * | awk -F"" '{print $3, $4}' 0310_Dealer_schedule 
+0310_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0310_Dealer_schedule:05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+0312_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0312_Dealer_schedule:05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+0315_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0315_Dealer_schedule:05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ grep -i 5 * | grep $2 | awk -F"" '{print $3, $4}' 0310_Dealer_schedule 
+Usage: grep [OPTION]... PATTERN [FILE]...
+Try 'grep --help' for more information.
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ grep -i 5 AM * | awk -F"" '{print $3, $4}' 0310_Dealer_schedule 
+grep: AM: No such file or directory
+0310_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0310_Dealer_schedule:05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+0312_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0312_Dealer_schedule:05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+0315_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0315_Dealer_schedule:05:00:00 PM	Billy Jones	Rahima Figueroa	Summer-Louise Hammond
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ grep -i 5 AM * | awk -F"" '{print $3, $4}' 
+grep: AM: No such file or directory
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ grep -i 5 * | awk -F"" '{print $3, $4}' 
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ grep -i "05:00:00 AM" * | awk -F"" '{print $3, $4}' 
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ grep -i "05:00:00 AM" * | awk -F"" '{print $3, $4}' 0310
+0310_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0312_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0315_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ grep -i "05:00:00 AM" * | awk -F"" '{print $3, $4}' 0310_Dealer_schedule 
+0310_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0312_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+0315_Dealer_schedule:05:00:00 AM	Katey Bean	Billy Jones	Evalyn Howell
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cat $1_Dealer_schedule | awk -F" " '{print $2, $5, $6}'
+cat: _Dealer_schedule: No such file or directory
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Dealer_Analysis$ cd ..
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ cat $1_Dealer_schedule | awk -F" " '{print $2, $5, $6}'
+cat: _Dealer_schedule: No such file or directory
+sysadmin@UbuntuDesktop:~/Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation$ 
+
