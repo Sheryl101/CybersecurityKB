@@ -89,7 +89,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ![image](https://github.com/Sheryl101/CybersecurityKB/blob/main/Docker/elk.png)
 
-### Target Machines & Beats
+### Beats in Use and Machines being Monitored
 This ELK server is configured to monitor the following machines:
 - DVWA-VM1 10.0.0.5
 - DVWA-VM2 10.0.0.6
@@ -103,7 +103,7 @@ These Beats allow us to collect the following information from each machine:
 - Filebeat will be used to collect log files from very specific files such as Apache, Azure tools and web servers.
 - Metericbeat will be used to monitor VM stats, per CPU core stats, per filesystem stats, memory stats and network stats.
 
-### Using the Playbook
+### How to Use the Ansible Build
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
 
 SSH into the control node and follow the steps below:
