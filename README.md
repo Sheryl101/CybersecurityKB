@@ -98,9 +98,10 @@ The following Beats are on these machines:
 - Filebeat 
 - Metricbeat 
 
-These Beats allow us to collect the following information from each machine:
+These Beats allow you to collect the following information from each machine:
 - Filebeat will be used to collect log files from very specific files such as Apache, Azure tools and web servers.
 - Metericbeat will be used to monitor VM stats, per CPU core stats, per filesystem stats, memory stats and network stats.
+
 
 ### How to Use the Ansible Build
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
@@ -121,6 +122,8 @@ SSH into the control node and follow the steps below:
 [Filebeat Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/4c08a89b5254d01abb38a3baec328a6394c9000f/Docker/filebeat-playbook)
 
 [Filebeat Configuration](https://github.com/Sheryl101/CybersecurityKB/blob/main/Docker/filebeat-config.yml)
+
+[Filebeat and Metricbeat Build Details](https://github.com/Sheryl101/CybersecurityKB/blob/main/Filebeat_Metricbeat%20Container%20Set-up/Filebeat_Metricbeat%20Set-Up.pdf)
 
 
 - Scroll to line #1106 and replace the IP address with the IP address of your ELK machine, 10.1.0.5 for the purposes of my setup.
