@@ -189,7 +189,7 @@ To use the Metricbeats playbook, the `metricbeat-config.yml` file needs to be co
 
 - Set "Kibana" host IP to ELK machine IP / port 9200.
 ![screenshot of metricbeat-config](https://github.com/Sheryl101/CybersecurityKB/blob/b05192f788bcc7a5f4471294b989fa1ca5727a18/Images/metricbeat-config0.png)
-- Set "Elasticsearch output" hosts IP to ELK machine IP / port 56010. 
+- Set "Elasticsearch output" hosts IP to ELK machine IP / port 5610. 
 ![screenshot of metricbeat-config](https://github.com/Sheryl101/CybersecurityKB/blob/b05192f788bcc7a5f4471294b989fa1ca5727a18/Images/metricbeat-config1.png)
 
 Run the Metricbeat playbook.
