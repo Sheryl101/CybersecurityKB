@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-# CybersecurityKB
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
@@ -32,9 +30,6 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
 [ELK Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/main/Docker/install-elk.yml)
 
-[filebeat Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/4c08a89b5254d01abb38a3baec328a6394c9000f/Docker/filebeat-playbook)
-
-[metricbeat Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/4c08a89b5254d01abb38a3baec328a6394c9000f/Docker/metricbeat-playbook)
 
 
 
@@ -178,11 +173,11 @@ The following screenshot displays the result of running `docker ps` after succes
 This ELK server is configured to monitor the following machines:
 - DVWA-VM1 10.0.0.5
 - DVWA-VM2 10.0.0.6
-- DVWA-VM2 10.0.0.7
+- DVWA-VM3 10.0.0.7
 
 The following Beats are on these machines:
 - Filebeat 
-- - Metricbeat 
+- Metricbeat 
 
 These Beats allow us to collect the following information from each machine:
 - Filebeat will be used to collect log files from very specific files such as Apache, Azure tools and web servers.
@@ -203,7 +198,11 @@ SSH into the control node and follow the steps below:
 - Choose System Logs.
 - Copy the filebeat-playbook.yml file to /etc/ansible/roles
 - Run the playbook (ansible-playbook filebeat-playbook.yml), and navigate to http://52.184.167.220:5601/app/kibana to check that the installation worked as expected.
->>>>>>> 911328aa1c58cbf79fba8f110660430990578f75
+
+[filebeat Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/4c08a89b5254d01abb38a3baec328a6394c9000f/Docker/filebeat-playbook)
+
+[metricbeat Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/4c08a89b5254d01abb38a3baec328a6394c9000f/Docker/metricbeat-playbook)
+
 
 _TODO: Answer the following questions to fill in the blanks:_
 - _Which file is the playbook? Where do you copy it?_
