@@ -113,12 +113,31 @@ SSH into the control node and follow the steps below:
 
 [filebeat Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/4c08a89b5254d01abb38a3baec328a6394c9000f/Docker/filebeat-playbook)
 
-[metricbeat Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/4c08a89b5254d01abb38a3baec328a6394c9000f/Docker/metricbeat-playbook)
+[filebeat conf](https://github.com/Sheryl101/CybersecurityKB/blob/main/Docker/filebeat-config.yml)
 
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? Where do you copy it?_
-- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
-- _Which URL do you navigate to in order to check that the ELK server is running?
+- Scroll to line #1106 and replace the IP address with the IP address of your ELK machine, 10.0.0.12 for the purposes of my setup.
+- Scroll to line #1806 and replace the IP address with the IP address of your ELK machine, 10.0.0.12 for the purposes of my setup.
+- Run the playbook with ansible-playbook filebeat-configuration.yml.
+- Next, confirm that the ELK stack was receiving logs. 
+- Navigate back to the Filebeat installation page on the ELK server GUI.
+- Verify that your playbook is completing Steps 1-4.
+- On the same page, scroll to Step 5: Module Status and click Check Data.
+- Scroll to the bottom and click on Verify Incoming Data.
+- If the ELK stack was successfully receiving logs, you would have seen:
 
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+![TODO: Update the path with the name of your screenshot of docker ps output]
+
+- Copy the metricbeat-configuration.yml file to /etc/ansible/files.
+
+[Metricbeat Configuration](https://github.com/Sheryl101/CybersecurityKB/blob/d1395f8fb97038344e168e2912e558b1de3dd9c5/Docker/metricbeat-config)
+
+- Copy the metricbeat-configuration.yml file to /etc/ansible/files.
+
+[Metricbeat Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/main/Docker/metricbeat-playbook)
+
+- Scroll to line #1106 and replace the IP address with the IP address of your ELK machine, 10.1.0.5 for the purposes of my setup.
+- Scroll to line #1806 and replace the IP address with the IP address of your ELK machine, 10.1.0.5 for the purposes of my setup.
+
+- Run ansible-playbook metricbeat-configuration.yml
+- To verify that your play works as expected, on the Metricbeat installation page in the ELK server GUI, scroll to Step 5: Module Status and click Check Data.
