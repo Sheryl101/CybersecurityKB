@@ -1,3 +1,7 @@
+## Azure vm set-up:
+[Jumpbox/Web Servers](https://github.com/Sheryl101/CybersecurityKB/blob/main/AZURE%20vm%20set-up/Jumpbox_%20web-1%20_web-2%20setup.docx)
+
+
 ## Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
