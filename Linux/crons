@@ -1,0 +1,31 @@
+
+
+sudo tar cvvWF logs_backup_tar.gz  --listed-incremental=test_backup.snar --level=0 /var/log/snapshot.file
+
+file location /auth_backup.tgz   archive /var/log/auth.log
+
+
+Every Wed @ 6am
+
+compress using gzip
+
+#!/bin/bash
+/var/log/cron.log {
+rotate 60
+daily
+notifempty
+compress
+delaycompress
+endscript
+}
+
+
+#!/bin/bash
+
+echo "A Quick System Audit Script $(date)"
+echo "Machine Type Info: $(uname -a)"
+echo -e "IP Info: $(ip addr | head -9 | tail -1) \n"
+
+
+
+free | awk 'FNR == 3 {print $4/($3+$4)*100-100}'| sed 's/-//g'

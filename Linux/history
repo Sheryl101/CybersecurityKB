@@ -1,0 +1,748 @@
+    1  sudo -l
+    2  clear
+    3  sudo -i
+    4  sudo apt install linux-headers-$(uname -r) build-essential dkms
+    5  clear
+    6  ls /etc/ssh/
+    7  sudo su
+    8  exit
+    9  ls ~/.ssh/
+   10  cat ~/.ssh/authorized_keys
+   11  clear
+   12  exit
+   13  cat .ssh/authorized_keys 
+   14  exit
+   15  ifconfig
+   16  sudo su
+   17  sudo su
+   18  exit
+   19  tail /etc/passwd
+   20  ls /home
+   21  sudo su
+   22  exit
+   23  history
+   24  ls des
+   25  ls desktop
+   26  cd desktop
+   27  ls
+   28  cd Desktop/
+   29  touch Desktop/foo_on_my_desk
+   30  ls
+   31  touch foo_on_my_desk
+   32  ls
+   33  cd ..
+   34  ls
+   35  cd Documents
+   36  ls
+   37  ls ../desktop
+   38  ls ../../desk
+   39  ls ../../desktop
+   40  ls ../../Desktop
+   41  ls
+   42  ls ../Desktop
+   43  cd ..
+   44  cd D
+   45  cd Desktop
+   46  ls
+   47  mkdir folder1 folder2 folder3
+   48  touch dog.jpg
+   49  ls
+   50  mv dog.jpg dog.png
+   51  ls
+   52  history
+   53  ls
+   54  cd ..
+   55  cd doc
+   56  ls
+   57  cd documents
+   58  cd Documents/
+   59  ls
+   60  cd ..
+   61  ls
+   62  cd Desktop
+   63  ls
+   64  cd folder
+   65  cd folder1
+   66  ls
+   67  cd 
+   68  ls
+   69  cd Documents
+   70  ls
+   71  cd missingfiles/
+   72  ls
+   73  cd 
+   74  cd /03-student/day1/take_5
+   75  mkdir Internal_Investigation_Employee_B
+   76  cd ..
+   77  ls
+   78  cd take_5/
+   79  ls
+   80  mv Internal_Investigation_Employee_A/email_evidence Internal_Investigation_Employee_B
+   81  ls
+   82  cd Internal_Investigation_Employee_B
+   83  cd Internal_Investigation_Employee_A
+   84  ls
+   85  cd ..
+   86  ls
+   87  cd Internal_Investigation_Employee_A
+   88  cd ..
+   89  cd ~
+   90  ls
+   91  treee
+   92  tree
+   93  cd Cybersecurity-Lesson-Plans/
+   94  ls
+   95  cd ..
+   96  cd /03-student/day/3
+   97  cd /03-student/day3
+   98  ls
+   99  tree
+  100  ls
+  101  cd warmup
+  102  ls
+  103  mkdir subpoena_request
+  104  ls
+  105  cd WEBACCESS/
+  106  find -iname 4545553894 *
+  107  cat WEB
+  108  cat WEBACCESS
+  109  cd WEBACCESS
+  110  find type -iname  *
+  111  find -type f -iname  *
+  112  find -type f -iname *0719*
+  113  cd 
+  114  cd /03-student/day3/warmup
+  115  ls
+  116  find -type f -iname *0719*
+  117  mv ./WEBACCESS/*0719* ./subpoena_request
+  118  grep 454-555-3894 ./PHONE_LOGS/* > Calls_to_Slugworth
+  119  mv Calls_to_Slugworth ./subpoena_request/
+  120  ls
+  121  grep '212-555-2732\|212-555-2734' ./DIRECTORIES/*
+  122  ls subpoena_request/
+  123  cd 03/-student/day2/warmup
+  124  cd /03-student/day2/warmup
+  125  ls
+  126  cd physical_access_logs/
+  127  find -type f -iname *October*
+  128  ls
+  129  cat physical1
+  130  ls
+  131  head physical2
+  132  head physical3
+  133  head physical4
+  134  head physical5
+  135  head physical56
+  136  head physical6
+  137  cd ~
+  138  ls
+  139  cd video
+  140  cd videos
+  141  cd Videos
+  142  ls
+  143  cd ..
+  144  ls
+  145  cd Documents/
+  146  ls
+  147  mkdir Lucky_Duck_Investigations
+  148  ls
+  149  cd Lucky_Duck_Investigations/
+  150  mkdir Roulette_Loss_Investigation
+  151  ls
+  152  cd Roulette_Loss_Investigation/
+  153  mkdir Player_Analysis
+  154  mkdir Dealer_Analysis
+  155  mkdir Player_Dealer_Correlation
+  156  cd Player_Analysis/
+  157  touch Notes_Player_Analysis
+  158  cd ..
+  159  cd Dealer_Analysis/
+  160  touch Notes_Dealer_Analysis
+  161  cd ...
+  162  cd ..
+  163  cd Player_Dealer_Correlation/
+  164  touch Notes_Player_Dealer_Correlation
+  165  cd ..
+  166  wget "https://tinurl.com/3-HW-setup-evidence && ./3-HW-setup-evidence
+  167  wget "https://tinyurl.com/3-HW-setup-evidence" && chmoed +x ./3-HW-setup-evidence
+  168  wget "https://tinyurl.com/3-HW-setup-evidence" && chmod +x ./3-HW-setup-evidence
+  169  ls
+  170  cd 3-HW-setup-evidence.1
+  171  nano 3-HW-setup-evidence.1
+  172  chmod +x ./Setup_Evidence_Files.sh
+  173  nano 3-HW-setup-evidence.1
+  174  ls
+  175  cd Documents
+  176  ls
+  177  cd ..
+  178  ls
+  179  cd /03-student/
+  180  ls
+  181  cd day3
+  182  ls
+  183  cd learning_awk/\
+  184  cd learning_awk
+  185  ls
+  186  cd ..
+  187  ls
+  188  cd warmup/
+  189  ls
+  190  cd ..
+  191  cd learning__sed
+  192  cd learning_sed
+  193  ls
+  194  cd ..
+  195  ls -l
+  196  cd /home
+  197  ls
+  198  cd sysadmin/
+  199  ls
+  200  cd /etc
+  201  ls
+  202  cd sbin
+  203  cd /sbin
+  204  ls
+  205  cd /var
+  206  ls
+  207  cd log
+  208  ls
+  209  cd ~
+  210  0310_win_loss_player_data:05:00:00 AM-$82,348Amirah Schneider,Nola Portillo, Mylie Schmidt,Suhayb Maguire,Millicent Betts,Avi Graves
+  211  0310_win_loss_player_data:08:00:00 AM-$97,383Chanelle Tapia, Shelley Dodson , Valentino Smith, Mylie Schmidt
+  212  0310_win_loss_player_data:02:00:00 PM-$82,348Jaden Clarkson, Kaidan Sheridan, Mylie Schmidt 
+  213  0310_win_loss_player_data:08:00:00 PM-$65,348        Mylie Schmidt, Trixie Velasquez, Jerome Klein ,Rahma Buckley
+  214  0310_win_loss_player_data:11:00:00 PM-$88,383Mcfadden Wasim, Norman Cooper, Mylie Schmidt
+  215  0312_win_loss_player_data:05:00:00 AM-$182,300Montana Kirk, Alysia Goodman, Halima Little, Etienne Brady, Mylie Schmidt
+  216  0312_win_loss_player_data:08:00:00 AM-$97,383        Rimsha Gardiner,Fern Cleveland, Mylie Schmidt,Kobe Higgins
+  217  0312_win_loss_player_data:02:00:00 PM-$82,348        Mae Hail,  Mylie Schmidt,Ayden Beil
+  218  0312_win_loss_player_data:08:00:00 PM-$65,792        Tallulah Rawlings,Josie Dawe, Mylie Schmidt,Hakim Stott, Esther Callaghan, Ciaron Villanueva
+  219  0312_win_loss_player_data:11:00:00 PM-$88,229        Vlad Hatfield,Kerys Frazier,Mya Butler, Mylie Schmidt,Lex Oakley,Elin Wormald
+  220  0315_win_loss_player_data:05:00:00 AM-$82,844        Arjan Guzman,Sommer Mann, Mylie Schmidt
+  221  0315_win_loss_player_data:08:00:00 AM-$97,001        Lilianna Devlin,Brendan Lester, Mylie Schmidt,Blade Robertson,Derrick Schroeder
+  222  0315_win_loss_player_data:02:00:00 PM-$182,419        Mylie Schmidt, Corey Huffman
+  223  sudo bash /home/instuctor/Documents/setup_scripts/instructor/landmarks_review.sh
+  224  ls
+  225  sudo bash /home/instuctor/Documents/setup_scripts/instructor/landmarks_review.sh
+  226  ls
+  227  exit
+  228  cd Documents/
+  229  ls
+  230  cd epscript/
+  231  la
+  232  cd doctors/
+  233  ls
+  234  nano doctors.
+  235  nano doctors.10.csv 
+  236  cd ..
+  237  ls
+  238  cd testenvir/
+  239  ls
+  240  cd doctor/
+  241  ls
+  242  nanpo doctors.10.csv 
+  243  nano doctors.10.csv 
+  244  cd ..
+  245  ls
+  246  cd setup_scripts/
+  247  ls
+  248  cd sysadmin/
+  249  ls
+  250  nano day3_stu_setup.sh 
+  251  nano day2_stu_setup.sh 
+  252  cd ..
+  253  cd /03-student/day3
+  254  ls
+  255  nano test.sh
+  256  cd learning_awk/
+  257  ls
+  258  cd ..
+  259  cd learning_sed/
+  260  ls
+  261  cd ..
+  262  cd first_shell_script/
+  263  ls
+  264  nano Log_analysis.sh 
+  265  cd ..
+  266  ls
+  267  cd IP_Lookup_Tool/
+  268  ls
+  269  nano IP_lookup.sh 
+  270  cd ..
+  271  ls
+  272  cd home
+  273  ls
+  274  cd instructor/
+  275  ls
+  276  cd Do
+  277  cd Documents/
+  278  ;s
+  279  ls
+  280  cd demo_scripts/
+  281  ls
+  282  nano a9xk.sh 
+  283  nano listen.sh 
+  284  nano rev_shell.sh 
+  285  cd ~
+  286  ls
+  287  cd Documents/
+  288  ls
+  289  cd missingfiles/
+  290  ls
+  291  cd ..
+  292  ls
+  293  cd Lucky_Duck_Investigations/
+  294  ls
+  295  cd Roulette_Loss_Investigation/
+  296  ls
+  297  cd Dealer_Analysis/
+  298  ls
+  299  grep -i "$1"
+  300  grep "$1"
+  301  nano Notes_Dealer_Analysis 
+  302  cd ..
+  303  ls
+  304  cd pl
+  305  cd Player_Analysis/
+  306  ls
+  307  nano Notes_Player_Analysis 
+  308  cd ..
+  309  ls
+  310  cd Dealer_Schedules_0310/
+  311  ls
+  312  awk -F"" '{print $1, $2}'
+  313  awk -F"" '{print $1, $2}' 0311_Dealer_schedule 
+  314  cd..
+  315  cd ..
+  316  awk -F"" '{print $1, $2}' 0311_Dealer_schedule 
+  317  awk -F":" '{print $1, $2}' 0311_Dealer_schedule 
+  318  grep 5 *
+  319  ls
+  320  cd Roulette_Loss_Investigation/
+  321  ls
+  322  cd Dealer_Analysis/
+  323  grep 5 *
+  324  grep hour *
+  325  awk -F":" '{print $1, $2}' 0311_Dealer_schedule 
+  326  awk -F":" '{print $1, $2}' 
+  327  awk -F"" '{print $1, $2}' 
+  328  awk -F "" '{print $1, $2}' 
+  329  awk -F"" '{print $1, $2}' 0310_Dealer_schedule 
+  330  grep -i 5 * | awk -F"" '{print $3, $4}'
+  331  grep -i 5 * | awk -F"" '{print $3, $4}' 0310_Dealer_schedule 
+  332  grep -i 5 * | grep $2 | awk -F"" '{print $3, $4}' 0310_Dealer_schedule 
+  333  grep -i 5 AM * | awk -F"" '{print $3, $4}' 0310_Dealer_schedule 
+  334  grep -i 5 AM * | awk -F"" '{print $3, $4}' 
+  335  grep -i 5 * | awk -F"" '{print $3, $4}' 
+  336  grep -i "05:00:00 AM" * | awk -F"" '{print $3, $4}' 
+  337  grep -i "05:00:00 AM" * | awk -F"" '{print $3, $4}' 0310
+  338  grep -i "05:00:00 AM" * | awk -F"" '{print $3, $4}' 0310_Dealer_schedule 
+  339  cat $1_Dealer_schedule | awk -F" " '{print $2, $5, $6}'
+  340  cd ..
+  341  cat $1_Dealer_schedule | awk -F" " '{print $2, $5, $6}'
+  342  cd Documents/
+  343  ls
+  344  cd Lucky_Duck_Investigations/
+  345  ls
+  346  cd Roulette_Loss_Investigation/
+  347  ls
+  348  cd Dealer_Analysis/
+  349  ls
+  350  grep '05:00:00 AM'
+  351  grep -i '05:00:00 AM'
+  352  grep -i '05:00:00 AM' 03*
+  353  grep -i '05:00:00 AM' 0310*
+  354  grep -i '05:00:00 AM' | awk -F "" 'print $3, $4} 0310*
+  355  
+  356  grep -i '05:00:00 AM' | awk -F "" '{print $3, $4}' 0310*
+  357  
+  358  grep -i '05:00:00 AM' | awk -F"" '{print $3, $4}' 0310*
+  359  grep -i '05:00:00 AM' | awk -F: '{print $3, $4}' 0310*
+  360  grep -i '05:00:00 AM' | awk -F: '{print $5, $6}' 0312*
+  361  ls
+  362  grep -i '05:00:00 AM' | awk -F"" '{print $5, $6}' 0312*
+  363  grep -i '05:00:00 AM' 0312*
+  364  grep -i '05:00:00 AM' 0312* | awk -F"" '{print $5, $6}'
+  365  grep -i '05:00:00 AM' 0312* | awk -F: '{print $5, $6}'
+  366  cd ..
+  367  grep -i '05:00:00 AM' 0312* | awk -F: '{print $5, $6}'
+  368  grep -i '05:00:00 AM' 0312*
+  369  ls
+  370  grep -i '05:00:00 AM' Dealer_Analysis/*
+  371  awk -F"" '{print $5, $6}' Dealer_Analysis/
+  372  awk -F"" '{print $5, $6}' Dealer_Analysis/*
+  373  awk -F"" '{print $3, $4}' Dealer_Analysis/*
+  374  awk -F"" '{print $3, $4}' Dealer_Analysis/* 
+  375  awk -F: '{print $3, $4}' Dealer_Analysis/* 
+  376  grep -i '05:00:00 AM' 0312* | awk -F: '{print $3, $4}' Dealer_Analysis/*
+  377  grep -i '05:00:00 AM' 0312* | awk -F"" '{print $3, $4}' Dealer_Analysis/*
+  378  grep -i '05:00:00 AM' Dealer_Analysis/* | awk -F"" '{print $3, $4}' Dealer_Analysis/*
+  379  grep -i '05:00:00 AM' Dealer_Analysis/*
+  380  awk -F"" '{print $2}' Dealer_Analysis/0310* 
+  381  awk -F"" '{print $2}' Dealer_Analysis*
+  382  awk -F"" '{print $2}' /Dealer_Analysis/0310_Dealer_schedule 
+  383  awk -F"" '{print $2}' Dealer_Analysis/0310_Dealer_schedule 
+  384  cd Dealer_Analysis/
+  385  awk -F"" '{print $2}' Dealer_Analysis/0310_Dealer_schedule 
+  386  ls
+  387  awk -F"" '{print $2}' 0310_Dealer_schedule 
+  388  awk -F":" '{print $2}' 0310_Dealer_schedule 
+  389  awk -F":" '{print $4}' 0310_Dealer_schedule 
+  390  ls
+  391  awk -F"" '{print $4, $5}' 0310_Dealer_schedule 
+  392  cat 0310_Dealer_schedule 
+  393  awk -F"" '{print $4, $5}' 0310_Dealer_schedule 
+  394  awk -F" " '{print $4, $5}' 0310_Dealer_schedule 
+  395  cd ..
+  396  grep -i '05:00:00 AM' Dealer_Analysis/*
+  397  grep -i '05:00:00 AM' Dealer_Analysis/* | awk -F" " '{print $4, $5}' 0310_Dealer_schedule
+  398  grep -i '05:00:00 AM' Dealer_Analysis/* | awk -F" " '{print $4, $5}' /Dealer_Analysis/0310_Dealer_schedule
+  399  grep -i '05:00:00 AM' Dealer_Analysis/* | awk -F" " '{print $4, $5}' ./Dealer_Analysis/0310_Dealer_schedule
+  400  grep -i '05:00:00 AM' Dealer_Analysis/* | awk -F" " '{print $3, $4}' ./Dealer_Analysis/0310_Dealer_schedule
+  401  grep -i '05:00:00 AM' Dealer_Analysis/* | awk -F" " '{print $7, $8}' ./Dealer_Analysis/0310_Dealer_schedule
+  402  grep -i '05:00:00 AM' Dealer_Analysis/* | awk -F" " '{print $6, $7}' ./Dealer_Analysis/0310_Dealer_schedule
+  403  grep -i '05:00:00 AM' Dealer_Analysis/* | awk -F" " '{print $5, $6}' ./Dealer_Analysis/0310_Dealer_schedule
+  404  grep -i '05:00:00 AM' Dealer_Analysis/* | awk -F" " '{print $5, $6}' ./Dealer_Analysis/0312_Dealer_schedule
+  405  grep -i '05:00:00 AM' * | awk -F" " '{print $5, $6}' ./Dealer_Analysis/0312_Dealer_schedule
+  406  grep -i '05:00:00 AM' | awk -F" " '{print $5, $6}' ./Dealer_Analysis/0312_Dealer_schedule
+  407  awk -F" " '{print $5, $6}' ./Dealer_Analysis/0312_Dealer_schedule | grep -i '05:00:00 AM' | 
+  408  awk -F" " '{print $5, $6}' ./Dealer_Analysis/0312_Dealer_schedule | grep -i '05:00:00 AM' 
+  409  awk -F" " '{print $5, $6}' ./Dealer_Analysis/0312_Dealer_schedule
+  410  grep -i '05:00:00 AM' 
+  411  grep -i '05:00:00 AM' Dealer_Analysis/* 
+  412  grep -i '05:00:00 AM' Dealer_Analysis/0310_Dealer_schedule 
+  413  grep -i '05:00:00 AM' Dealer_Analysis/0310_Dealer_schedule | awk -F" " '{print $5, $6}' ./Dealer_Analysis/0312_Dealer_schedule
+  414  awk -F" " '{print $5, $6}' ./Dealer_Analysis/0312_Dealer_schedule | grep -i '05:00:00 AM' Dealer_Analysis/0310_Dealer_schedule 
+  415  cat $1_Dealer_schedule | awk -F" " '{print $1, $2, $5, $6}' | grep "$2"
+  416  ls
+  417  cd Dealer_Analysis/
+  418  cat $1_Dealer_schedule | awk -F" " '{print $1, $2, $5, $6}' | grep "$2"
+  419  cat 0312_Dealer_schedule | awk -F" " '{print $1, $2, $5, $6}' | grep "$2"
+  420  cat 0312_Dealer_schedule | awk -F" " '{print $1, $2, $5, $6}' | grep -i '05:00:00 AM'
+  421  nano 0310_Dealer_5AM.sh
+  422  ls
+  423  chmod +x 0310_Dealer_5AM.sh 
+  424  ls
+  425  sh 0310_Dealer_5AM.sh 
+  426  sh 0310_Dealer_8AM.sh 
+  427  nano 0310_Dealer_8AM.sh
+  428  nano 0310_Dealer_8AM.sh 
+  429  nano 0310_Dealer_5AM.sh 
+  430  nano 0310_Dealer_8AM.sh 
+  431  nano 0310_Dealer_5AM.sh 
+  432  ls
+  433  chmod +x 0310_Dealer_schedule 
+  434  ls
+  435  cat 0310_Dealer_schedule > 0310_Dealer_schedule 
+  436  ls
+  437  cat 0310_Dealer_schedule > 0310_Dealer_schedule.txt
+  438  ls
+  439  rm 0310_Dealer_schedule
+  440  ls
+  441  cat 0310_Dealer_schedule.txt > 0310_Dealer_schedule
+  442  cat 0310_Dealer_schedule
+  443  nano 0310_Dealer_schedule
+  444  sh 0310_Dealer_8AM.sh 
+  445  ls
+  446  nano 0310_Dealer_2PM.sh 
+  447  nano 0310_Dealer_8AM.sh
+  448  nano 0310_Dealer_2PM.sh 
+  449  nano 0310_Dealer_8PM.sh
+  450  nano 0312_Dealer_5AM.sh
+  451  nano 0310_Dealer_5AM.sh
+  452  ls
+  453  nano 0310_Dealer_8AM.sh
+  454  nano 0312_Dealer_2PM.sh 
+  455  nano 0310_Dealer_2PM.sh 
+  456  ls
+  457  nano 0310_Dealer_8PM.sh 
+  458  nano 0310_Dealer_2PM.sh 
+  459  nano 0310_Dealer_8AM.sh
+  460  nano 0310_Dealer_5AM.sh
+  461  ls
+  462  chmod +x 0310_Dealer_2PM.sh
+  463  chmod +x 0312_Dealer_2PM.sh
+  464  chmod +x 0315_Dealer_2PM.sh
+  465  chmod +x 0312_Dealer_8PM.sh
+  466  chmod +x 0310_Dealer_8PM.sh
+  467  ls
+  468  chmod +x 0310_Dealer_8AM.sh
+  469  chmod +x 0312_Dealer_8AM.sh
+  470  chmod +x 0315_Dealer_8AM.sh
+  471  ls
+  472  chmod +x 0312_Dealer_5AM.sh
+  473  chmod +x 0315_Dealer_5AM.sh
+  474  ls
+  475  sh 0312_Dealer_5AM.sh 
+  476  sh 0312_Dealer_2PM.sh 
+  477  sh 0312_Dealer_8PM.sh 
+  478  sh 0310_Dealer_8PM.sh 
+  479  sh 0315_Dealer_8PM.sh 
+  480  sh 0315_Dealer_2PM.sh 
+  481  nano 0310_Dealer_schedule
+  482  sh 0310_Dealer_2PM.sh 
+  483  ls
+  484  sh 0310_Dealer_2PM.sh > Dealers_workingduring_losses
+  485  ls
+  486  nano Dealers_workingduring_losses 
+  487  sh 0310_Dealer_2PM.sh 
+  488  sh 0310_Dealer_8PM.sh > Dealers_workingduring_losses
+  489  sh 0310_Dealer_5AM.sh > Dealers_workingduring_losses
+  490  sh 0310_Dealer_8AM.sh > Dealers_workingduring_losses
+  491  nano Dealers_workingduring_losses 
+  492  sh 0310_Dealer_8AM.sh >> Dealers_workingduring_losses
+  493  nano Dealers_workingduring_losses 
+  494  sh 0310_Dealer_5AM.sh >> Dealers_workingduring_losses
+  495  sh 0310_Dealer_2PM.sh >> Dealers_workingduring_losses
+  496  sh 0310_Dealer_8PM.sh >> Dealers_workingduring_losses
+  497  0312_Dealer_5PM.sh >> Dealers_workingduring_losses
+  498  0312_Dealer_5AM.sh >> Dealers_workingduring_losses
+  499  cat 0312_Dealer_5AM.sh >> Dealers_workingduring_losses
+  500  nano Dealers_workingduring_losses 
+  501  sh 0312_Dealer_8AM.sh 0312_Dealer_2PM.sh 0312_Dealer_8PM.sh >> Dealers_workingduring_losses
+  502  nano Dealers_workingduring_losses 
+  503  sh 0312_Dealer_8AM.sh >> Dealers_workingduring_losses
+  504  sh 0312_Dealer_2PM.sh >> Dealers_workingduring_losses
+  505  sh 0312_Dealer_8PM.sh >> Dealers_workingduring_losses
+  506  sh 0315_Dealer_5AM.sh >> Dealers_workingduring_losses
+  507  sh 0315_Dealer_8AM.sh >> Dealers_workingduring_losses
+  508  sh 0315_Dealer_2PM.sh >> Dealers_workingduring_losses
+  509  nano Dealers_workingduring_losses 
+  510  ls
+  511  cd ..
+  512  ls
+  513  cd Player_Dealer_Correlation/
+  514  ls
+  515  nano Notes_Player_Dealer_Correlation 
+  516  cd ..
+  517  ls
+  518  cd Dealer_Analysis/
+  519  nano roulette_dealer_finder_by_time.sh
+  520  ls
+  521  chmod +x roulette_dealer_finder_by_time.sh 
+  522  sh roulette_dealer_finder_by_time.sh 0310_Dealer_schedule 
+  523  sh roulette_dealer_finder_by_time.sh 0310
+  524  nano roulette_dealer_finder_by_time.sh
+  525  nano 0310_Dealer_2PM.sh 
+  526  nano roulette_dealer_finder_by_time.sh
+  527  sh roulette_dealer_finder_by_time.sh 0310
+  528  nano roulette_dealer_finder_by_time.sh
+  529  sh roulette_dealer_finder_by_time.sh 0310
+  530  nano roulette_dealer_finder_by_time.sh
+  531  sh roulette_dealer_finder_by_time.sh 0310
+  532  nano roulette_dealer_finder_by_time.sh
+  533  sh roulette_dealer_finder_by_time.sh 0310
+  534  sh roulette_dealer_finder_by_time.sh 0310 02:00:00
+  535  nano roulette_dealer_finder_by_time.sh
+  536  sh roulette_dealer_finder_by_time.sh 0310 02:00:00
+  537  sh roulette_dealer_finder_by_time.sh 0312
+  538  sh roulette_dealer_finder_by_time.sh 0310_Dealer_schedule
+  539  nano roulette_dealer_finder_by_time.sh
+  540  sh roulette_dealer_finder_by_time.sh 0310_Dealer_schedule
+  541  ls
+  542  ./roulette_dealer_finder_by_time.sh 0315
+  543  nano roulette_dealer_finder_by_game.sh
+  544  nano roulette_dealer_finder_by_time.sh
+  545  nano roulette_dealer_finder_by_game.sh
+  546  nano roulette_dealer_finder_by_game.sh 0310_Dealer_schedule Blackjack
+  547  nano roulette_dealer_finder_by_game.sh 
+  548  nano roulette_dealer_finder_by_game.sh 0310_Dealer_schedule Blackjack
+  549  ./roulette_dealer_finder_by_game.sh 0310_Dealer_schedule Blackjack
+  550  chmod +x ./roulette_dealer_finder_by_game.sh 0310_Dealer_schedule Blackjack
+  551  chmod +x ./roulette_dealer_finder_by_game.sh
+  552  chmod +x ./roulette_dealer_finder_by_game.sh 
+  553  ls
+  554  ./roulette_dealer_finder_by_game.sh 0310_Dealer_schedule
+  555  ./roulette_dealer_finder_by_game.sh 0310 Blackjack
+  556  ./roulette_dealer_finder_by_game.sh 0310 
+  557  man case
+  558  ls
+  559  cd Cybersecurity-Lesson-Plans/
+  560  ls
+  561  cd ..
+  562  cd /03-student
+  563  ls
+  564  cd day3
+  565  ls
+  566  cd ..
+  567  ls
+  568  cd ..
+  569  ls
+  570  cd home
+  571  ls
+  572  cd student
+  573  ls
+  574  cd Do
+  575  cd Documents/
+  576  ls
+  577  cd epscript/
+  578  ls
+  579  cd ..
+  580  ls
+  581  cd ..
+  582  ls
+  583  cd Downloads/
+  584  ls
+  585  cd ..
+  586  cd tools
+  587  ls
+  588  cd Tools/
+  589  ls
+  590  cd Documents/
+  591  ls
+  592  cd Lucky_Duck_Investigations/
+  593  ls
+  594  cd Roulette_Loss_Investigation/
+  595  ls
+  596  cd Player_Analysis/
+  597  ls
+  598  mv Roulette_Losses /Player_Dealer_Correlation
+  599  mv Roulette_Losses sudo Player_Dealer_Correlation
+  600  mv Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis/Roulette_Losses /Documents/Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation
+  601  mv /Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Analysis/Roulette_Losses /Lucky_Duck_Investigations/Roulette_Loss_Investigation/Player_Dealer_Correlation
+  602  cd ~
+  603  cd /student
+  604  ls
+  605  cd Cybersecurity-Lesson-Plans/
+  606  ls
+  607  cd ..
+  608  cd /03-student
+  609  ls
+  610  cd day3
+  611  ls
+  612  cd ..
+  613  ls
+  614  cd usr
+  615  ls
+  616  cd ..
+  617  cd ~/Documents/epscript/
+  618  ls
+  619  tree -l
+  620  tree -la
+  621  ls
+  622  ls -l epscript
+  623  ls
+  624  ls -l epscript
+  625  cd ..
+  626  ls
+  627  ls -l epscript/
+  628  ls -l epscript/doctors/
+  629  ls -l epscript/patients/
+  630  ls -l epscript//treatments/
+  631  touch 20190505epscript.tar
+  632  ls
+  633  cd epscript/
+  634  ls
+  635  touch 20190505epscript.tar
+  636  tar cvvWF 20190505epscript.tar epscript/ > 20190505epscript.txt
+  637  tar -cvvWF 20190505epscript.tar epscript/ > 20190505epscript.txt
+  638  ls
+  639  tar --cvvWF 20190505epscript.tar epscript/ > 20190505epscript.txt
+  640  tar --cvvf 20190505epscript.tar epscript/ > 20190505epscript.txt
+  641  tar -cvvf 20190505epscript.tar epscript/ > 20190505epscript.txt
+  642  cd ..
+  643  tar -cvvf 20190505epscript.tar epscript/ > 20190505epscript.txt
+  644  ls
+  645  less 20190505epscript.txt
+  646  ~/Documents/epscript/backup
+  647  ls
+  648  cd epscript/
+  649  ls
+  650  cd backup/
+  651  ls -l
+  652  tar tvvf 20190814epscript.tar 
+  653  tar tvvf 20190814epscript.tar | less
+  654  sudo mkdir patient_search
+  655  sudo tar xvvf 20190814epscript.tar -C patient_search/ epscript/patients/
+  656  ls -l patient_search/epscript/patients/
+  657  cd ..
+  658  grep "Mark,Lopez" *
+  659  grep -R "Megan, Patel" epscript/
+  660  grep -R "Megan,Patel" epscript/
+  661  tar xvf 20190814epscript.tar
+  662  ls
+  663  tar xvf 20190505epscript.tar
+  664  grep -R "Mark,Lopez" epscript/
+  665  cd ..
+  666  ls
+  667  cd epscript/
+  668  ls
+  669  cd testenvir/
+  670  cd ~/Documents/epscript/testenvir/
+  671  ls
+  672  cd ..
+  673  tar cvvWF epscript_back_sun.tar --listed-incremental=epscript_backup.snar --level=0 testenvir/
+  674  tar -cvvWF epscript_back_sun.tar --listed-incremental=epscript_backup.snar --level=0 testenvir/
+  675  tar -cvvWF epscript_back_sun.tar 
+  676  tar cvvWF epscript_back_sun.tar 
+  677  tar cvv epscript_back_sun.tar 
+  678  tar cvvf epscript_back_sun.tar 
+  679  sudo tar cvvf epscript_back_sun.tar 
+  680  ls
+  681  cd testenvir/
+  682  ls
+  683  tar -cvvWF epscript_back_sun.tar --listed-incremental=epscript_backup.snar --level=0 testenvir/
+  684  tar cvvWF epscript_back_sun.tar --listed-incremental=epscript_backup.snar --level=0 testenvir/
+  685  cd ..
+  686  ls
+  687  clea
+  688  clear
+  689  ls testenvir/
+  690  tar cvvWF test_back_sun.tar --listed-incremental=test_backup.snar --level=0 testenvir/
+  691  ls -l
+  692  sudo tar cvvWF test_back_sun.tar --listed-incremental=test_backup.snar --level=0 testenvir/
+  693  tar cvvWF test_back_sun.tar --listed-incremental=test_backup.snar --level=0 testenvir/
+  694  tar --help
+  695  tar -tvf  test_back_sun.tar --listed-incremental=test_backup.snar --level=0 testenvir/
+  696  tar cvvWf epscript_back_sun.tar --listed-incremental=escript_backup.snar --level=0 testenvir
+  697  cd testenvir/
+  698  tar cvvWf epscript_back_sun.tar --listed-incremental=escript_backup.snar --level=0 testenvir
+  699  clear
+  700  cd ..
+  701  cd ~
+  702  wget https://raw.githubusercontent.com/localh0t/wildpwn/master/wildpwn.py
+  703  cd /home
+  704  ls
+  705  cd jane
+  706  su jane
+  707  sudo apt install hashalot
+  708  sha256
+  709  man sha256
+  710  sha256 -x
+  711  ls
+  712  john --version
+  713  ls /usr/shar/wordlists
+  714  ls /usr/share/wordlists
+  715  head -n20 /usr/share/wordlists/rockyou.txt
+  716  wc-l /usr/share/wordlists/rockyou.txt
+  717  wc -l /usr/share/wordlists/rockyou.txt
+  718  nano hlist.txt
+  719  john hlist.txt -wordlist='/usr/share/wordlists/rockyou.txt
+  720  john hlist.txt -wordlist="/usr/share/wordlists/rockyou.txt
+
+  721  john hlist.txt -wordlist= "/usr/share/wordlists/rockyou.txt"
+  722  john hlist.txt -wordlist="/usr/share/wordlists/rockyou.txt"
+  723  john --show hlist.txt
+  724  sudo cp /etc/shadow mylist
+  725  ls -l
+  726  sudo chmod 666 mylist
+  727  sudo chown sysadmin mylist
+  728  john mylist -wordlist="/usr/share/wordlists/rockyou.txt"
+  729  sudo cp /etc/shadow shadow_copy
+  730  nano shadow_copy 
+  731  ls
+  732  cd etc/shadow
+  733  sudo nano shadow
+  734  cd Cybersecurity-Lesson-Plans/
+  735  ls
+  736  cd /home
+  737  ls
+  738  cd sysadmin/
+  739  ls
+  740  cd /etc
+  741  ls
+  742  sudo nano shadow
+  743  sudo cp /etc/shadow shadow_copy
+  744  sudo nano shadow_copy
+  745  sudo john shadow_copy
+  746  history
+
