@@ -88,8 +88,9 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Beats in Use and Machines being Monitored
 This ELK server is configured to monitor the following machines:
-- DVWA-VM1 10.0.0.5
-- DVWA-VM2 10.0.0.6
+- web-1 10.0.0.5
+- web-2 10.0.0.6
+- web-2 10.0.0.7
 
 The following Beats are on these machines:
 - Filebeat 
@@ -130,7 +131,7 @@ SSH into the control node and follow the steps below:
 - Scroll to the bottom and click on Verify Incoming Data.
 - If the ELK stack was successfully receiving logs, you would have seen:
 
-![TODO: Update the path with the name of your screenshot of docker ps output]
+[Metricbeat Configuration](https://github.com/Sheryl101/CybersecurityKB/blob/main/Diagrams/kibana.PNG)
 
 - Copy the metricbeat-configuration.yml file to /etc/ansible/files.
 
