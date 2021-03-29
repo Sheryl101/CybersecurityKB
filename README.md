@@ -131,7 +131,7 @@ SSH into the control node and follow the steps below:
 - Scroll to the bottom and click on Verify Incoming Data.
 - If the ELK stack was successfully receiving logs, you would have seen:
 
-[Metricbeat Configuration](https://github.com/Sheryl101/CybersecurityKB/blob/main/Diagrams/kibana.PNG)
+[Success](https://github.com/Sheryl101/CybersecurityKB/blob/main/Diagrams/kibana.PNG)
 
 - Copy the metricbeat-configuration.yml file to /etc/ansible/files.
 
