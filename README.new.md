@@ -188,9 +188,9 @@ Run the Filebeat playbook.
 To use the Metricbeats playbook, the `metricbeat-config.yml` file needs to be configured and saved to `/etc/ansible/roles/files/`
 
 - Set "Kibana" host IP to ELK machine IP / port 5601.
-![screenshot of metricbeat-config](images/metricbeat-config1.png)
+![screenshot of metricbeat-config](https://github.com/Sheryl101/CybersecurityKB/blob/b05192f788bcc7a5f4471294b989fa1ca5727a18/Images/metricbeat-config0.png)
 - Set "Elasticsearch output" hosts IP to ELK machine IP / port 9200. 
-![screenshot of metricbeat-config](images/metricbeat-config0.png)
+![screenshot of metricbeat-config](https://github.com/Sheryl101/CybersecurityKB/blob/b05192f788bcc7a5f4471294b989fa1ca5727a18/Images/metricbeat-config1.png)
 
 Run the Metricbeat playbook.
 - `ansible-playbook metricbeat-playbook.yml`
