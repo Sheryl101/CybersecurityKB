@@ -78,11 +78,11 @@ A summary of the public access policies in place can be found in the table below
 
 | Name               | Publicly Accessible | Allowed IP Addresses | Allowed Ports | Allowed Traffic |
 |--------------------|---------------------|----------------------|---------------|-----------------|
-| JumpBoxProvisioner | Yes                 | 13.77.182.22          | 22            | Any             |
-| Web1               | no public IP        |                      |               |                 |
-| Web2               | no public IP        |                      |               |                 |
-| Web3               | no public IP        |                      |               |                 |
-| ELK                | Yes                 | 52.184.167.220       | 5601          | TCP             |
+| JumpBoxProvisioner | Yes                 | 13.77.182.22         | 22            | Any             |
+| Web1               | no public IP        | 52.148.177.153 (LB)  |               |                 |
+| Web2               | no public IP        | 52.148.177.153 (LB)  |               |                 |
+| Web3               | no public IP        | 52.148.177.153 (LB)  |               |                 |
+| ELK                | Yes                 | 52.184.167.70        | 5601          | TCP             |
 
 ---------------------------------
 
@@ -126,7 +126,7 @@ The following screenshot displays the result of running `docker ps` after succes
 
 ### Target Machines & Beats
 This ELK server:
-- ELK - 10.1.0.4  
+- ELK - 10.1.0.5 
 
 is configured to monitor the following machines:
 - Web1 - 10.0.0.5
@@ -161,13 +161,13 @@ Run the DVWA playbook.
 - SSH into one of the DVWA machines and use curl to verify it was set up successfully and running. 
 - `curl localhost/setup.php`
 - Navigate to the public IP of the Load Balancer from your workstation to confirm it was successful, and can be accessed from a browser.   
-   Ex: `http://52.250.23.39/setup.php`
+   Ex: `http:/52.148.177.153//setup.php`
 
 ### ELK -
 Run the ELK playbook.
 - `ansible-playbook install-elk.yml`
 - Navigate to the public IP of the ELK machine on port 5601 to verify connection to the Kibana app.   
-  Ex: `http://104.211.26.103:5601/app/kibana` 
+  Ex: `http://http://52.184.167.70:5601/app/kibana` 
 
 ### Filebeat -
 To use the Filebeats playbook, the `filebeat-config.yml` file needs to be configured and saved to `/etc/ansible/roles/files/`
@@ -196,3 +196,5 @@ Run the Metricbeat playbook.
 - `ansible-playbook metricbeat-playbook.yml`
 - Navigate to the public IP of the ELK machine on port 5601 to verify connection to the Kibana app. Select add metrics, system metrics, and check data to verify it is receiving data.   
   Ex: `http://52.184.167.70:5601/app/kibana` 
+  
+  [Detail Set-Up for Filebeat & Metricbeat] (https://github.com/Sheryl101/CybersecurityKB/tree/main/Filebeat_Metricbeat%20Container%20Set-up)
