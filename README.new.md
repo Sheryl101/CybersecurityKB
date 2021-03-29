@@ -6,7 +6,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-![ELK diagram](images/MMiller-AzureRG-ELK-Diagram.png)
+![ELK diagram](https://github.com/Sheryl101/CybersecurityKB/blob/main/Diagrams/NeworkDiagramELK.PNG)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to recreate the entire deployment pictured above. Each portion of the playbook is broken down into individual playbooks, so that only certain pieces might be installed, such as Filebeat or Metricbeat only. 
 
