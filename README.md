@@ -42,8 +42,9 @@ The configuration details of each machine may be found below.
 | Name      | Function           | IP Address | Public IP       |Operating System |
 |-----------|--------------------|------------|-----------------|------------------|
 | Jump Box  | Gateway            | 10.0.0.4   | 13.77.182.22    | Linux            |
-| DVWA-VM1  | Azure VM           | 10.0.0.5   | 52.148.177.153 (LB)| Linux            |
-| DVWA-VM2  | Azure VM           | 10.0.0.6   | 52.148.177.153 (LB)| Linux            |
+| web-1     | Azure VM           | 10.0.0.5   | 52.148.177.153 (LB)| Linux         |
+| web-2     | Azure VM           | 10.0.0.6   | 52.148.177.153 (LB)| Linux         |
+| web-3     | Azure VM           | 10.0.0.7   | 52.148.177.153 (LB)| Linux         |
 | ELK-Server| Analytics Platform | 10.1.0.5   | 52.184.167.220  | Linux            |
 
 
@@ -60,9 +61,9 @@ A summary of the access policies in place can be found in the table below.
 | Name     | Publicly Accessible | Allowed IP Addresses |
 |----------|---------------------|----------------------|
 | Jump Box | Yes                 | 13.77.182.22         |
-| DVWA-VM1 | No                  | 10.0.0.5             |
-| DVWA-VM2 | No                  | 10.0.0.6             |
-| DVWA-VM3 | No                  | 10.1.0.5             |
+| web-1    | No                  | 10.0.0.5             |
+| web-2    | No                  | 10.0.0.6             |
+| web-3    | No                  | 10.0.0.7             |
 
 
 ### Elk Configuration
@@ -80,19 +81,6 @@ The playbook implements the following tasks:
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
 ![image](https://github.com/Sheryl101/CybersecurityKB/blob/main/Docker/elk.png)
-
-### Target Machines & Beats
-This ELK server is configured to monitor the following machines:
-- DVWA-VM1 10.0.0.5
-- DVWA-VM2 10.0.0.6
-
-Installed the following Beats on these machines:
-- Metricbeat 
-- Filebeat 
-
-These Beats allow us to collect the following information from each machine:
-- Filebeat will be used to collect log files from very specific files such as Apache, Azure tools and web servers.
-- Metericbeat will be used to monitor VM stats, per CPU core stats, per filesystem stats, memory stats and network stats.
 
 ### Beats in Use and Machines being Monitored
 This ELK server is configured to monitor the following machines:
