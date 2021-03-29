@@ -42,8 +42,8 @@ The configuration details of each machine may be found below.
 | Name      | Function           | IP Address | Public IP       |Operating System |
 |-----------|--------------------|------------|-----------------|------------------|
 | Jump Box  | Gateway            | 10.0.0.4   | 13.77.182.22    | Linux            |
-| DVWA-VM1  | Azure VM           | 10.0.0.5   | Load Balancer   | Linux            |
-| DVWA-VM2  | Azure VM           | 10.0.0.6   | Load Balancer   | Linux            |
+| DVWA-VM1  | Azure VM           | 10.0.0.5   | 52.148.177.153 (LB)| Linux            |
+| DVWA-VM2  | Azure VM           | 10.0.0.6   | 52.148.177.153 (LB)| Linux            |
 | ELK-Server| Analytics Platform | 10.1.0.5   | 52.184.167.220  | Linux            |
 
 
@@ -61,7 +61,7 @@ A summary of the access policies in place can be found in the table below.
 |----------|---------------------|----------------------|
 | Jump Box | Yes                 | 13.77.182.22         |
 | DVWA-VM1 | No                  | 10.0.0.5             |
-| DVWA-VM2 | No                  | 10.0.0.5             |
+| DVWA-VM2 | No                  | 10.0.0.6             |
 | DVWA-VM3 | No                  | 10.1.0.5             |
 
 
