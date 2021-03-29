@@ -92,6 +92,8 @@ This ELK server is configured to monitor the following machines:
 - web-2 10.0.0.6
 - web-2 10.0.0.7
 
+BEFORE DOING ANYTHING MAKE SURE YOU START AND ATTACH YOUR DOCKER CONTAINER WITH: sudo docker container start and sudo docker container attach TO DO THIS MAKE SURE YOU HAVE RAN ansible-playbook install-elk.yml OR THESE BEATS WILL NOT FIND ANYTHING TO MONITOR!
+
 The following Beats are on these machines:
 - Filebeat 
 - Metricbeat 
