@@ -116,9 +116,9 @@ SSH into the control node and follow the steps below:
 - Copy the filebeat-playbook.yml file to /etc/ansible/roles
 - Run the playbook (ansible-playbook filebeat-playbook.yml), and navigate to http://52.184.167.220:5601/app/kibana to check that the installation worked as expected.
 
-[filebeat Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/4c08a89b5254d01abb38a3baec328a6394c9000f/Docker/filebeat-playbook)
+[Filebeat Playbook](https://github.com/Sheryl101/CybersecurityKB/blob/4c08a89b5254d01abb38a3baec328a6394c9000f/Docker/filebeat-playbook)
 
-[filebeat conf](https://github.com/Sheryl101/CybersecurityKB/blob/main/Docker/filebeat-config.yml)
+[Filebeat Configuration](https://github.com/Sheryl101/CybersecurityKB/blob/main/Docker/filebeat-config.yml)
 
 
 - Scroll to line #1106 and replace the IP address with the IP address of your ELK machine, 10.1.0.5 for the purposes of my setup.
