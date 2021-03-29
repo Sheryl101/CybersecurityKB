@@ -197,4 +197,4 @@ Run the Metricbeat playbook.
 - Navigate to the public IP of the ELK machine on port 5601 to verify connection to the Kibana app. Select add metrics, system metrics, and check data to verify it is receiving data.   
   Ex: `http://52.184.167.70:5601/app/kibana` 
   
-  [Detail Set-Up for Filebeat & Metricbeat](https://github.com/Sheryl101/CybersecurityKB/tree/main/Filebeat_Metricbeat%20Container%20Set-up)
+[Detail Set-Up for Filebeat & Metricbeat](https://github.com/Sheryl101/CybersecurityKB/blob/3ec7be6f0b7af14f05eb5fba3fca7cb09777bafa/Filebeat_Metricbeat%20Container%20Set-up/Filebeat_Metricbeat%20Set-Up.pdf)
